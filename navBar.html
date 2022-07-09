@@ -7,15 +7,18 @@
     <title>Nav - bar</title>
     <style>
         #main{
-            width: 80%;
+            width: 90%;
             margin: auto;
             display: flex;
-            height: 30px;
+            height: 40px;
             justify-content: space-between;
-            background-color: grey;
+            background-color: antiquewhite;
             border-radius: 10px;
-            align-items: center
-            ;
+            align-items: center;
+            font-size: 30px;
+            padding: auto 30px auto 30px;
+            border: 0.5px solid black;
+            
         }
         #main>div{
             height: auto;
@@ -26,19 +29,25 @@
             width: auto;
         }
         #child>div{
-
             margin-right: 30px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
         }
     </style>
 </head>
 <body>
+
+    
+
     <div id="main">
         <div>Home</div>
         <div id="child">
-            <div>Men</div>
+            <div> <a href="#">Men</a></div>
             <div>Women</div>
-            <div>SignUp</div>
-            <div>Login</div>
+            <div> <a href="login.html" target="_blank" >Login</a> </div>
+            <div> <a href="signup.html" target="_blank">SignUp</a> </div>
         </div>
     </div>
 </body>
