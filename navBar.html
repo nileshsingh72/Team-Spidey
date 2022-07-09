@@ -1,7 +1,45 @@
-<html>
-    <head>
-        <title>
-            
-        </title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Nav - bar</title>
+    <style>
+        #main{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            height: 30px;
+            justify-content: space-between;
+            background-color: grey;
+            border-radius: 10px;
+            align-items: center
+            ;
+        }
+        #main>div{
+            height: auto;
+            margin-left: 20px;
+        }
+        #child{
+            display: flex;
+            width: auto;
+        }
+        #child>div{
+
+            margin-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div>Home</div>
+        <div id="child">
+            <div>Men</div>
+            <div>Women</div>
+            <div>SignUp</div>
+            <div>Login</div>
+        </div>
+    </div>
+</body>
 </html>
