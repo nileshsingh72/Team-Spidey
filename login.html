@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LoginPage</title>
+    <style>
+        form{
+            margin-top: 50px;
+            width: 35%;
+            margin: auto;
+            padding: 45px 10px;
+           background-color: white;
+        }
+        body{
+            background: rgb(0,30,36);
+background: linear-gradient(90deg, rgba(0,30,36,1) 0%, rgba(80,210,213,1) 42%, rgba(228,43,255,1) 100%);
+
+        }
+        label{
+            display: block;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        hr{
+            width: 80%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        input{
+            display: block;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+             padding: 15px 0px ;
+             border: 0px;
+        }
+        input[type="submit"]{
+            background: rgb(0,30,36);
+background: linear-gradient(90deg, rgba(0,30,36,1) 0%, rgba(80,210,213,1) 42%, rgba(228,43,255,1) 100%);
+
+            color: white;
+            /* padding: 13px 100px ; */
+            font-size:15px ;
+            margin-top: 15px;
+            font-weight: bolder;
+        }
+        #first{
+            margin-top: 80px;
+        }
+        #first,#second{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p{
+            color: rgb(173, 173, 173);
+        }
+        #first>p{
+         display: inline;
+        }
+        #first>p:nth-child(2){
+            color: blue;
+        }
+        #second>p:last-child{
+            color: blue;
+        }
+        #second>p{
+         display: inline;
+        }
+    </style>
+</head>
+<body>
+	|<form>
+            <label>Login</label>
+        <input type="text" placeholder="email">
+        <hr>
+        <input type="text" placeholder="password">
+        <hr>
+        <input type="submit">
+        <div id="first">
+            <p>Forgot</p>
+            <p>Password</p>
+            <p>?</p>
+        </div>
+        <div id="second">
+            <p>Don't have an account ?</p>
+            <p>Sign up</p>
+        </div>
+    </form>
+</body>
+</html>
